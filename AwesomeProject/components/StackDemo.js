@@ -47,6 +47,7 @@ const MyStack = () => {
         <Stack.Screen name="Profile" component={ProfileScreen} />
         <Stack.Screen name="CountChange" component={CountChange} />
         <Stack.Screen name="KeyPad" component={KeyPad} />
+        
       </Stack.Navigator>
     </NavigationContainer>
   );
